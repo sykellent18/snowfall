@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background-color: #1d1f20;
+  transition: background-color 0.5s ease; /* Smooth transition for background color change */
+}
+
+canvas {
+  display: block;
+}
+
+#lamp {
+  position: fixed;
+  width: 100px; /* Adjust the size as needed */
+  height: 100px;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+}
+
+#ui {
+  display: none; /* Hide the UI element */
+}
